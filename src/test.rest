@@ -1,0 +1,7 @@
+http://localhost:3000
+POST /udata
+{
+  "fname": "kaustubh",
+  "lname": "murumkar",
+  "mob": "9090909090"
+}
