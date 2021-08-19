@@ -1,7 +1,33 @@
 http://localhost:3000
+-i
+-s
+--
+
+--
 POST /udata
 {
   "fname": "kaustubh",
   "lname": "murumkar",
   "mob": "9090909090"
 }
+
+--
+POST /users/register
+{
+  "fname": "kaustubh",
+  "lname": "murumkar",
+  "username": "kaustubh",
+  "password": "kaustubh",
+  "mob": "9090909090"
+}
+
+--
+POST /users/login
+{
+  "username": "kaustubh",
+  "password": "kaustubh"
+}
+
+--
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImthdXN0dWJoIiwiZXhwIjoxNjI5NDQ5NTkxLCJpc3MiOiJHb2xhbmdHaW5UcmlhbCJ9.K3QPCt_CJ7BAPLFFOg_VEJri3t-YDcP3J-W5y18_t9o
+GET /users/accesspage
